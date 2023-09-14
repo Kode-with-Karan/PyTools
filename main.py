@@ -5,8 +5,7 @@ import telebot
 import socket
 import re
 
-bot_token = "6341384178:AAHKKeUwJ9D3iVc3ihgBzIAm_Gx1cHYOV7o"
-chat_id = "5594268442"
+
 bot = telebot.TeleBot(bot_token)
 
 def get_mac_details(mac_address):
